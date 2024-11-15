@@ -15,7 +15,7 @@ gem 'dalli', '~> 2.7.2'
 gem 'whenever', '~> 0.9.4'
 
 # Tags
-gem 'acts-as-taggable-on', '~> 3.2.6'
+gem 'acts-as-taggable-on', '~> 12.0.0'
 
 # Statistics
 gem 'chartkick', '~> 1.3.2'
@@ -80,7 +80,7 @@ gem 'gravatar_image_tag', '~> 1.2.0'
 gem 'twitter', '~> 5.6.0'
 
 # Include some generic language stuff (dates, common errors, …)
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 8.0.0'
 
 # Other dependencies
 gem 'geocoder', '~> 1.2.2'
