@@ -124,7 +124,7 @@ end
 
 group :test, :development do
   gem 'database_cleaner', '1.3.0'
-  gem 'rspec-rails',  '~> 3.0.1'
+  gem 'rspec-rails', '~> 8.0.0'
   gem 'factory_girl_rails', '~> 4.2'
   gem 'faker', '~> 1.4.1'
   gem 'simplecov', '~> 0.8.2'
