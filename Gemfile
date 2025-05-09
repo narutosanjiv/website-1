@@ -1,7 +1,7 @@
 # coding: utf-8
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.1.8'
+gem 'rails', '~> 7.0.0'
 gem 'rake', '~> 10.3.2'
 
 gem 'thin', '~> 1.6.1'
@@ -25,13 +25,13 @@ gem 'chartkick', '~> 1.3.2'
 gem 'momentjs-rails', '~> 2.4.0'
 
 # Assets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 6.0.0'
 gem 'coffee-script', '~> 2.2.0'
 gem 'leaflet-rails', '~> 0.7.3'
 gem 'uglifier', '~> 2.5.1'
 gem 'jquery-rails', '~> 3.1.1'
 gem 'jquery-ui-rails', '~> 5.0.3'
-gem 'foundation-rails', '5.4.5.0'
+gem 'foundation-rails', '6.5.1.0'
 gem 'font-awesome-rails', '~> 4.1.0.0'
 gem 'modernizr-rails', '~> 2.7.1'
 
@@ -86,7 +86,7 @@ gem 'rails-i18n'
 gem 'geocoder', '~> 1.2.2'
 
 # Nicer drop down boxes in the admin area
-gem 'chosen-rails', '~> 1.1.0'
+gem 'chosen-rails', '~> 1.9.0'
 
 # Meetup API
 gem 'ruby_meetup2', '~> 0.5.0'
