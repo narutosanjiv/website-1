@@ -29,7 +29,7 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'coffee-script', '~> 2.2.0'
 gem 'leaflet-rails', '~> 0.7.3'
 gem 'uglifier', '~> 2.5.1'
-gem 'jquery-rails', '~> 3.1.1'
+gem 'jquery-rails', '~> 3.1.2'
 gem 'jquery-ui-rails', '~> 5.0.3'
 gem 'foundation-rails', '5.4.5.0'
 gem 'font-awesome-rails', '~> 4.1.0.0'
@@ -80,7 +80,7 @@ gem 'gravatar_image_tag', '~> 1.2.0'
 gem 'twitter', '~> 5.6.0'
 
 # Include some generic language stuff (dates, common errors, …)
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 4.0.4'
 
 # Other dependencies
 gem 'geocoder', '~> 1.2.2'
@@ -91,7 +91,7 @@ gem 'chosen-rails', '~> 1.1.0'
 # Meetup API
 gem 'ruby_meetup2', '~> 0.5.0'
 # RSS parsing
-gem 'feedjira', '~> 1.3.0'
+gem 'feedjira', '~> 1.3.1'
 
 # Bug Monitoring
 gem 'bugsnag', '~> 2.1.0'
@@ -111,10 +111,10 @@ group :development do
   gem 'spring-commands-rspec', '~> 1.0.2'
 
   # Guard
-  gem 'guard', '~> 2.6.1'
-  gem 'guard-rspec', '~> 4.2.10'
+  gem 'guard', '~> 2.7.0'
+  gem 'guard-rspec', '~> 4.3.0'
   gem 'guard-pow', '~> 2.0.0'
-  gem 'guard-bundler', '~> 2.0.0'
+  gem 'guard-bundler', '~> 2.1.0'
 
   # Silence asset pipeline and make log usable again
   gem 'quiet_assets', '~> 1.0.3'
