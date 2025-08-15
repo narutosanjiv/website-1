@@ -1,7 +1,7 @@
 # coding: utf-8
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.1.8'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 gem 'rake', '~> 10.3.2'
 
 gem 'thin', '~> 1.6.1'
@@ -15,7 +15,7 @@ gem 'dalli', '~> 2.7.2'
 gem 'whenever', '~> 0.9.4'
 
 # Tags
-gem 'acts-as-taggable-on', '~> 3.2.6'
+gem 'acts-as-taggable-on', '~> 4.0.0'
 
 # Statistics
 gem 'chartkick', '~> 1.3.2'
@@ -48,7 +48,7 @@ gem 'kss', '~> 0.5.0'
 # TODO: Set this to the Ruby Gems version as soon as this is released
 gem 'activeadmin', github: 'activeadmin', branch: 'master'
 gem 'ahoy_matey'
-gem 'groupdate'
+gem 'groupdate', '>= 2.1.1'
 
 # Date Handling
 gem 'ice_cube', '~> 0.11.1'
