@@ -1,10 +1,10 @@
 # coding: utf-8
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.1.8'
+gem 'rails', '~> 5.0.0'
 gem 'rake', '~> 10.3.2'
 
-gem 'thin', '~> 1.6.1'
+gem 'thin', '~> 1.7.0'
 # Databases
 gem 'pg', '~> 0.17.1'
 
@@ -22,17 +22,17 @@ gem 'chartkick', '~> 1.3.2'
 
 # TODO: Remove
 # This lib is used exactly ONCE in the admin interface
-gem 'momentjs-rails', '~> 2.4.0'
+gem 'momentjs-rails', '~> 2.5.0'
 
 # Assets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 5.0.5'
 gem 'coffee-script', '~> 2.2.0'
 gem 'leaflet-rails', '~> 0.7.3'
 gem 'uglifier', '~> 2.5.1'
-gem 'jquery-rails', '~> 3.1.1'
-gem 'jquery-ui-rails', '~> 5.0.3'
-gem 'foundation-rails', '5.4.5.0'
-gem 'font-awesome-rails', '~> 4.1.0.0'
+gem 'jquery-rails', '~> 4.0.1'
+gem 'jquery-ui-rails', '~> 5.0.4'
+gem 'foundation-rails', '5.5.0.0'
+gem 'font-awesome-rails', '~> 4.5.0.1'
 gem 'modernizr-rails', '~> 2.7.1'
 
 gem 'haml', '~> 4.0.4'
@@ -55,19 +55,19 @@ gem 'ice_cube', '~> 0.11.1'
 gem 'icalendar', '~> 1.5.2'
 
 # Authentication and Authorization
-gem 'devise', '~> 3.2.0'
+gem 'devise', '~> 4.0.0'
 gem 'devise-i18n', '~> 0.10.3'
 gem 'cancancan', '~> 1.8.4'
-gem 'omniauth', '~> 1.1.3'
-gem 'omniauth-github', '~> 1.1.0'
-gem 'omniauth-twitter', '~> 1.0.1'
+gem 'omniauth', '~> 1.3.1'
+gem 'omniauth-github', '~> 1.1.2'
+gem 'omniauth-twitter', '~> 1.1.0'
 
 # Picture Upload
 gem 'carrierwave', '~> 0.10.0'
 gem 'mini_magick', '~> 3.7.0'
 
 # Form Handling
-gem 'simple_form', '~> 3.0.2'
+gem 'simple_form', '~> 3.2.1'
 
 # JavaScript runtime
 gem 'execjs', '~> 2.2.1'
@@ -80,13 +80,13 @@ gem 'gravatar_image_tag', '~> 1.2.0'
 gem 'twitter', '~> 5.6.0'
 
 # Include some generic language stuff (dates, common errors, …)
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 5.0.0'
 
 # Other dependencies
 gem 'geocoder', '~> 1.2.2'
 
 # Nicer drop down boxes in the admin area
-gem 'chosen-rails', '~> 1.1.0'
+gem 'chosen-rails', '~> 1.1.1'
 
 # Meetup API
 gem 'ruby_meetup2', '~> 0.5.0'
@@ -117,15 +117,15 @@ group :development do
   gem 'guard-bundler', '~> 2.0.0'
 
   # Silence asset pipeline and make log usable again
-  gem 'quiet_assets', '~> 1.0.3'
+  gem 'quiet_assets', '~> 1.1.0'
 
 
 end
 
 group :test, :development do
   gem 'database_cleaner', '1.3.0'
-  gem 'rspec-rails',  '~> 3.0.1'
-  gem 'factory_girl_rails', '~> 4.2'
+  gem 'rspec-rails', '~> 3.0.2'
+  gem 'factory_girl_rails', '~> 4.5', '>= 4.5.0'
   gem 'faker', '~> 1.4.1'
   gem 'simplecov', '~> 0.8.2'
   gem 'codeclimate-test-reporter', '~> 0.4.3', require: nil
@@ -137,7 +137,7 @@ group :test, :development do
 end
 
 group :production do
-  gem 'shelly-dependencies'
+  gem 'shelly-dependencies', '>= 0.2.5'
 end
 
 group :test do
@@ -145,4 +145,4 @@ group :test do
 end
 
 gem 'recaptcha', '0.3.6'
-gem 'lograge', '~> 0.3.0'
+gem 'lograge', '~> 0.3.1'
