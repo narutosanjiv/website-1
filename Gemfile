@@ -94,7 +94,7 @@ gem 'ruby_meetup2', '~> 0.5.0'
 gem 'feedjira', '~> 1.3.0'
 
 # Bug Monitoring
-gem 'bugsnag', '~> 2.1.0'
+gem 'bugsnag', '~> 2.7.0'
 
 group :development do
 
