@@ -59,7 +59,7 @@ gem 'devise', '~> 3.2.0'
 gem 'devise-i18n', '~> 0.10.3'
 gem 'cancancan', '~> 1.8.4'
 gem 'omniauth', '~> 1.1.3'
-gem 'omniauth-github', '~> 1.1.0'
+gem 'omniauth-github', '~> 1.1.2'
 gem 'omniauth-twitter', '~> 1.0.1'
 
 # Picture Upload
@@ -77,7 +77,7 @@ gem 'therubyracer', '~> 0.12.0'
 gem 'gravatar_image_tag', '~> 1.2.0'
 
 # For the auto follow script
-gem 'twitter', '~> 5.6.0'
+gem 'twitter', '~> 6.2.0'
 
 # Include some generic language stuff (dates, common errors, …)
 gem 'rails-i18n'
